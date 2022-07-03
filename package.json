@@ -1,0 +1,27 @@
+{
+  "name": "parcel-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel --open",
+    "build": "parcel build --dist-dir=build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@parcel/transformer-svg-react": "^2.6.2",
+    "@reduxjs/toolkit": "^1.8.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2",
+    "process": "^0.11.10"
+  }
+}
